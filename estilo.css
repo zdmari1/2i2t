@@ -4,22 +4,22 @@
 }
 .verde{
     width: 2.5%;
-    height: 4%;
+    height: 100%;
     background-color: rgb(20, 48, 170);
 }
 .amarelo{
     width: 2.5%;
-    height: 4%;
+    height: 100%;
     background-color: rgb(39, 89, 226);
 }
 .azul{
     width: 2.5%;
-    height: 4%;
+    height: 100%;
     background-color: rgb(80, 136, 241);
 }
 .branco{
     width: 2.5%;
-    height: 4%;
+    height: 100%;
     background-color: rgb(86, 148, 199);
 }
 .linha {
