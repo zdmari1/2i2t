@@ -3,7 +3,7 @@
 margin: 0;
 }
 body{
-    background-color: rgb(107, 248, 142);
+    background-color: rgb(111, 184, 129);
 }
 
 .menu{
@@ -19,24 +19,24 @@ body{
 }
 .rodape{
     width: 100%;
-    background-color:  rgb(13, 146, 95);
+    background-color:  rgb(63, 141, 111);
     text-align: center;
 }
 .desc-estilos{
     width: 100%;
-    background-color: rgb(53, 194, 147);
+    background-color: rgb(59, 161, 127);
 }
 .desc-solo{
     width: 100%;
-    background-color: rgb(55, 209, 55);
+    background-color: rgb(55, 209, 150);
 }
 .desc-grupo{
     width: 100%;
-    background-color: rgb(34, 206, 149);
+    background-color: rgb(34, 206, 163);
 }
 .desc-bandas{
     width: 100%;
-    background-color: rgb(55, 138, 17);
+    background-color: rgb(17, 138, 102);
 }
 .desc-app{
     width: 100%;
