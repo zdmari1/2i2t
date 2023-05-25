@@ -19,28 +19,28 @@ body{
 }
 .rodape{
     width: 100%;
-    background-color:  rgb(63, 141, 111);
+    background-color:  rgb(111, 184, 129);
     text-align: center;
 }
 .desc-estilos{
     width: 100%;
-    background-color: rgb(59, 161, 127);
+    background-color:  rgb(13, 146, 95);
 }
 .desc-solo{
     width: 100%;
-    background-color: rgb(55, 209, 150);
+    background-color: rgb(111, 184, 129);
 }
 .desc-grupo{
     width: 100%;
-    background-color: rgb(34, 206, 163);
+    background-color:  rgb(13, 146, 95);
 }
 .desc-bandas{
     width: 100%;
-    background-color: rgb(17, 138, 102);
+    background-color: rgb(111, 184, 129);
 }
 .desc-app{
     width: 100%;
-    background-color: rgb(27, 170, 122);
+    background-color:  rgb(13, 146, 95);
 }
 .img-ini{
     width: 100%;
