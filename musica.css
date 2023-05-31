@@ -48,7 +48,7 @@ body{
 @media screen and (min-width: 768px) {
     .menu{
         height: 120px;
-        background-color: rgb(207, 235, 84);  
+        background-color: rgb(84, 235, 117);  
         color: rgb(250, 249, 215);
         font-size: 32px;
       }
