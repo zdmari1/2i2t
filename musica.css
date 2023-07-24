@@ -66,7 +66,6 @@ background-color: var(--hover);
     float: right;
     padding: 35px 20px;
 }
-
 .hamb-line{
     background: var(--fonte);
     display: block;
@@ -75,7 +74,6 @@ background-color: var(--hover);
     width: 24px;
 
 }
-
 .hamb-line::before,
 .hamb-line::after{
     background: var(--fonte);
@@ -83,31 +81,25 @@ background-color: var(--hover);
     display: block;
     height: 100%;
     position: absolute;
-    transition: all 2s ease-out;
+    transition: all .2s ease-out;
     width: 100%;
-
 }
-
 .hamb-line::before{
     top: 5px;
 }
 .hamb-line::after{
     top: -5px;
 }
-
 .side-menu{
     display: none;
 }
-
-.side-menu:checked ~ nav {
-    max-width: 100%;
-
+.side-menu:checked ~ nav{
+ max-height: 100%;
 }
 
 .side-menu:checked ~ .hamburger .hamb-line{
     background: transparent;
 }
-
 .side-menu:checked ~ .hamburger .hamb-line::before{
     transform: rotate(-45deg);
     top: 0;
