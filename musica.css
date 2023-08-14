@@ -1,3 +1,22 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
 *{
     padding: 0;
 margin: 0;
@@ -111,31 +130,48 @@ background-color: var(--hover);
 
 .conteudo-musica{
     width: 100vw;
-    display: grid;
-    grid-template-columns: 100%;
-    text-align: center;
-    
 }
 .rodape{
     width: 100%;
     background-color: rgb(13, 146, 95);
     text-align: center;
 }
-.definicao{
+.definicao {
+    display: block;
     width: 100vw;
-    padding: 5px;
+    grid-area: def;
+}
+.img-definicao {
+    display: none;
+}
+.descricao {
+    width: 100vw;
+}
+#img-def {
+    width: 80%;
+}
+div[class^="item-"]{
+    background-color: var(--fundo-claro);
+    margin-top: 2px;
+    height: 300px;
+    grid-area: "item";
+}
+.info {
+    display: grid;
 }
 
-@media screen and (min-width: 600px){
+
+@media (min-width: 820px) {
     .nav{
-     max-height: none;
-     top: 0;
-     position: relative;
-     float: right;
-     width: fit-content;
-     background-color: transparent;
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
     }
-    .menu{
+    
+    .menu li{
      float: left;
     }
     .menu a:hover{
@@ -149,18 +185,55 @@ background-color: var(--hover);
      width:25vh;
      height: 25vh; 
     }
+    .definicao {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
     }
-    
-    @media screen and (min-width: 1280px){
-        .menu{
-           height: 200px;
-           background-color: var(--fonte);
-           font-size: 64px;
-        }
-        .img-ini{
-            width: 50%;
-        }
-        .desc-solo{
-            display: flex;
-        }
+    .descricao {
+        height: 100%;
+        padding: 50px;
+        width: 70vw;
+    }
+    .img-definicao{
+        display: block;
+        text-align: end;
+        height: 30vh;
+        width: 30vw;
+    }
+    .frase-topo {
+        display: block;
+    }
+    .info {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "item" "item";
+    }
+    div[class^="item-"]{
+        margin-right: 2px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+    }
+    .hamb{
+        display: none;
+    }
+    #logo {
+        width: 16vh;
+        height: 16vh;
+    }   
        }
