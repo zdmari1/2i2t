@@ -151,7 +151,7 @@ background-color: var(--hover);
     width: 80%;
 }
 div[class^="item-"]{
-    background-color: var(--fundo-claro);
+    background-color: purple;
     margin-top: 2px;
     height: 300px;
     grid-area: "item";
