@@ -151,7 +151,7 @@ background-color: var(--hover);
     width: 80%;
 }
 div[class^="item-"]{
-    background-color: purple;
+    background-color: var(--fundo);
     margin-top: 2px;
     height: 300px;
     grid-area: "item";
@@ -159,10 +159,11 @@ div[class^="item-"]{
 .info {
     display: grid;
 }
+.info{
+    background-color: aquamarine;
+}
 .pop{
-    margin-top: 2px;
-    height: 300px;
-    grid-area: "item";
+   width: 100%;
 }
 
 

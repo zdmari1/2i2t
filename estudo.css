@@ -12,7 +12,7 @@ body{
     margin-top: 10px;
     margin: 10px;
 }
-.cnteudo{
+.conteudo{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% ;
     justify-content: center;
